@@ -339,3 +339,55 @@ form input, textarea {
     background-color: #823597;
     box-shadow: 0 0 20px #fff;
 }
+/* SECCION RESPONSIVE */
+@media screen and (max-width:844px){
+    /*HABILIDADES*/
+    .habilidades .contenido-seccion .fila{
+        display: block;
+    }
+    .habilidades .contenido-seccion .fila .col{
+        width: 100%;
+        text-align: center;
+    }
+    .habilidades .contenido-seccion .fila .col .cont-barra{
+        justify-content: center;
+    }
+    /*SOBRE MI*/
+    .container {
+        flex-direction: column;
+    }
+    .about-izquierda, .about-derecha {
+        width: 100%;
+        padding: 20px;
+    }
+    .about-derecha p{
+        font-size: 13px;
+        padding: 23px
+    }
+    .sobre-mi {
+        text-align: center;
+    }
+    /*ESTUDIOS*/
+    .info {
+        display: flex;
+        flex-direction: column;
+    }
+    .col {
+        margin-bottom: 20px;
+    }
+    .fila {
+            flex-direction: column;
+    }
+    
+    .col {
+            margin-bottom: 20px;
+    }
+    #contacto{
+        overflow: hidden;
+    }
+    #contacto h3{
+        position: relative;
+        right: 40px;
+    }
+}
+ 
