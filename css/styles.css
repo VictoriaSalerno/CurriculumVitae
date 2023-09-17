@@ -18,13 +18,13 @@
     display: flex;
     list-style: none;
     position: relative;
-    padding: 12px 20px;
+    padding: 0.75rem 1.25rem;
 }
 .menu{
     display: flex;
 }
 .menu li {
-    padding-left: 30px;
+    padding-left: 1.87rem;
 }
 .menu li a {
     text-decoration: none;
@@ -34,10 +34,10 @@
 }
 .menu li a:hover{
     font-size: large;
-    text-shadow: 0 0 35px #fff;;
+    text-shadow: 0 0 2.18rem #fff;;
 }
 .info{
-    padding-bottom: 130px;
+    padding-bottom: 8.1rem;
     text-align: center;
 }
 .info h1{
@@ -60,33 +60,33 @@
 .caja{
     position: absolute;
     right: -50px;
-    box-shadow: 0px 0px 18px -1px rgba(0, 0, 0, 0.39);   
+    box-shadow: 0rem 0rem 1.12rem -0.063rem rgba(0, 0, 0, 0.39);   
 }
 .caja > div{
     background: #8655AE;
-    padding: 60px;
+    padding: 3.75rem;
     text-align: center;
 }
 .caja h2{
-    font-size: 32px;
-    margin: 35px 0 9px 0;
-    line-height: 1.2;
-    padding-bottom: 11px;
-    border-bottom: 2px solid #edffec;
+    font-size: 2rem;
+    margin: 2.18rem 0 0.56rem 0;
+    line-height: 1.2em;
+    padding-bottom: 0.68rem;
+    border-bottom: 0.125rem solid #edffec;
 }
 .caja h3{
     text-transform: uppercase;
     font-weight: 300;
-    letter-spacing: 5px;
-    margin-top: 15px;
+    letter-spacing: 0.31rem;
+    margin-top: 1rem;
 }
 .about-img img{
     display: block;
-    width: 200px;
+    width: 12.5rem;
 }
 .about-img{
-    width: 200px;
-    height: 200px;
+    width: 12.5rem;
+    height: 12.5rem;
     overflow: hidden;
     border-radius: 50%;
 }
@@ -97,39 +97,39 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    padding: 0 160px;
+    padding: 0 10rem;
     text-align: center;
 }
 .about-derecha h1{
-    font-size: 30px;
+    font-size: 1.87rem;
     text-transform: uppercase;
 }
 .sobre-mi p{
     font-weight: 300;
-    padding: 8px;
+    padding: 0.5rem;
 }
 .sobre-mi i{
     color: #8655AE;
-    width: 30px;
-    height: 30px;
-    line-height: 40px;
+    width: 1.87rem;
+    height: 1.87rem;
+    line-height: 2.5rem;
 }
 .sobre-mi span{
     font-weight: bold;
-    margin: 8px 0;
-    font-size: 22px;
+    margin: 0.5rem 0;
+    font-size: 1.37rem;
 }
 /* SECCION HABILIDADES */
 .habilidades{
-    padding: 110px 0 80px 0;
+    padding: 6.87rem 0 5rem 0;
     text-align: center;
     background-color: #202020;
     color: #fff;
 }
 .habilidades h3{
     text-transform: uppercase;
-    font-size: 30px;
-    margin-bottom: 10px;
+    font-size: 1.87rem;
+    margin-bottom: 0.62rem;
 }
 .skills-area{
     display: flex;
@@ -138,20 +138,20 @@
 }
 .skill{
     position: relative;
-    margin-bottom: 40px;
+    margin-bottom: 2.5rem;
 }
 .skill-title{
-    font-size: 25px;
-    margin-bottom: 10px;
+    font-size: 1.56rem;
+    margin-bottom: 0.62rem;
     font-family: 'Yellowtail', sans-serif;
 }
 .skill-fill{
     background: #8655AE;
-    height: 30px;
-    border-radius: 100px;
+    height: 1.87rem;
+    border-radius: 6.25rem;
     display: flex;
     align-items: center;
-    padding-right: 30px;
+    padding-right: 1.87rem;
     overflow: hidden;
 }
 .html {
@@ -193,74 +193,74 @@
 /* SECCION RESUMEN */
 .resumen{
     background-color: #202020;
-    padding: 50px;
+    padding: 3.125rem;
     text-align: center;
     color: white;
 }
 .contenido-resumen{
-    max-width: 1000px;
+    max-width: 62.5rem;
     margin: auto;
-    padding: 0 10px;
+    padding: 0 0.625rem;
 }
 .contenido-resumen h3{
     text-transform: uppercase;
-    font-size: 30px;
+    font-size: 1.87rem;
 }
 .contenido-resumen .info{
     text-align: left;
     display: flex;
     justify-content: space-between;
-    margin-top: 30px;
+    margin-top: 1.87rem;
 }
 .contenido-resumen .info .col .titulo{
     color: #823597;
     font-weight: bold;
     border: 2px solid #823597;
-    padding: 10px;
+    padding: 0.62rem;
 }
 .contenido-resumen .info .col table{
-    margin-top: 30px;
+    margin-top: 1.87rem;
 }
 .contenido-resumen .info .col table .datos{
     width: 40%;
-    border-bottom: 1px solid #bab9b9;
+    border-bottom: 0.063rem solid #bab9b9;
 }
 .contenido-resumen .info .col table h4{
-    margin-top: 10px;
+    margin-top: 0.62rem;
 }
 .contenido-resumen .info .col table h3{
-    font-size: 20px;
-    margin-bottom: 5px;
+    font-size: 1.25rem;
+    margin-bottom: 0.31rem;
 }
 .contenido-resumen .info .col table p{
-    font-size: 14px;
+    font-size: 0.87rem;
 }
 .contenido-resumen .info .col table .descripcion{
-    border-left: 1px solid #bab9b9;
-    padding-left: 20px;
+    border-left: 0.063rem solid #bab9b9;
+    padding-left: 1.25rem;
 }
 /* SECCION CONTACTO */
 .contacto{
     background-color: #202020;
-    padding: 140px 0 100px 0;
+    padding: 8.75rem 0 6.25rem 0;
     color: #e6e6e6;
     text-align: center;
 }
 .contenido-contacto{
-    max-width: 1000px;
+    max-width: 62.5rem;
     margin: auto;
-    padding: 0 10px;
+    padding: 0 0.65rem;
 }
 .contenido-contacto h3{
     text-transform: uppercase;
-    font-size: 30px;
+    font-size: 1.87rem;
 }
 .contenido-contacto .fila{
     display: flex;
     justify-content: space-around;
 }
 .contenido-contacto .fila .col{
-    margin-top: 50px;
+    margin-top: 3.12rem;
 }
 .contenido-contacto .fila .col h2{
     color: #823597;
@@ -273,71 +273,71 @@
 #contacto form {
     display: flex;
     flex-direction: column;
-    width: 650px;
+    width: 40rem;
 }
 form input, textarea {
-    padding: 15px;
+    padding: 0.93rem;
     border-radius: 0.5rem;
     width: 100%;
     border: none;
     outline: none;
     background: #4b2e65;
-    margin-bottom: 15px;
+    margin-bottom: 0.93rem;
 }
 .email, .nombre{
     color:#fff;
 }
 .mensaje{
     resize: none;
-    height: 200px;
+    height: 12.5rem;
     color: #fff;
 }
 .boton {
-    width: 160px;
+    width: 10rem;
     cursor: pointer;
     background: #945DC4;
     color: #fff;
     justify-content: center;
     text-transform: uppercase;
-    letter-spacing: 1px;
+    letter-spacing: 0.063rem;
 
 }
 .boton:hover {
-    font-size: 20px;
+    font-size: 1.25rem;
     color: #fff;
     background-color: #823597;
-    box-shadow: 0 0 20px #fff;
+    box-shadow: 0 0 1.25rem #fff;
 }
 #contacto h3{
-    margin: 30px;
+    margin: 1.87rem;
 }
 /*FOOTER*/
 .footer-black{
     background-color: #202020;
     color: #fff;
-    padding: 20px;
+    padding: 1.25rem;
     text-align: center;
 }
 .redes{
-    margin: 20px 0;
+    margin: 1.25rem 0;
 }
 .redes a{
     display: inline-block;
     text-decoration: none;
     background-color: #000;
     color: #CF50F2;
-    border: 1px solid #CF50F2;
+    border: 0.063rem solid #CF50F2;
     border-radius: 50%;
-    width: 45px;
-    height: 45px;
-    line-height: 45px;
-    margin: 0 5px;
+    width: 2.81rem;
+    height: 2.81rem;
+    line-height: 2.81rem;
+    margin: 0 0.31rem;
     transition: .3s;
 }
 .redes a:hover{
     color: #fff;
     background-color: #823597;
-    box-shadow: 0 0 20px #fff;
+    box-shadow: 0 0 1.25rem #fff;
 }
 /* SECCION RESPONSIVE */
 @media screen and (max-width:844px){
@@ -358,11 +358,11 @@ form input, textarea {
     }
     .about-izquierda, .about-derecha {
         width: 100%;
-        padding: 20px;
+        padding: 1.25rem;
     }
     .about-derecha p{
-        font-size: 13px;
-        padding: 23px
+        font-size: 0.81rem;
+        padding: 1.4rem
     }
     .sobre-mi {
         text-align: center;
@@ -373,21 +373,21 @@ form input, textarea {
         flex-direction: column;
     }
     .col {
-        margin-bottom: 20px;
+        margin-bottom: 1.25rem;
     }
     .fila {
             flex-direction: column;
     }
     
     .col {
-            margin-bottom: 20px;
+            margin-bottom: 1.25rem;
     }
     #contacto{
         overflow: hidden;
     }
     #contacto h3{
         position: relative;
-        right: 40px;
+        right: 2.5rem;
     }
 }
  
