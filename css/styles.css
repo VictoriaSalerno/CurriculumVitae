@@ -13,7 +13,7 @@
     background-position: center center;
     color: #fff;
 }
-#nav-bar {
+nav ul {
     width: 100%;
     display: flex;
     list-style: none;
@@ -23,16 +23,16 @@
 .menu{
     display: flex;
 }
-.menu li {
+nav ul li {
     padding-left: 1.87rem;
 }
-.menu li a {
+nav ul li a {
     text-decoration: none;
     color: white;
     position: relative;
     text-transform: uppercase;
 }
-.menu li a:hover{
+nav ul li a:hover{
     font-size: large;
     text-shadow: 0 0 2.18rem #fff;;
 }
@@ -310,6 +310,9 @@ form input, textarea {
 }
 #contacto h3{
     margin: 1.87rem;
+    position: absolute;
+    left: -6.5rem;
+    font-size: 1rem;
 }
 /*FOOTER*/
 .footer-black{
@@ -339,8 +342,45 @@ form input, textarea {
     background-color: #823597;
     box-shadow: 0 0 1.25rem #fff;
 }
+
+label, input{
+    display: none;
+}
 /* SECCION RESPONSIVE */
 @media screen and (max-width:844px){
+    input:checked ~ ul {
+        display: block;
+    }
+    #input:checked ~ label {}
+    .nav-bar label {
+        display: block;
+        user-select: none;
+        width: 80px;
+        height: 30px;
+        cursor: pointer;
+        font-size: 24px;
+        padding: 10px;
+    }
+    .nav-bar ul {
+        display: none;
+    }
+    .nav-bar .menu{
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        width: 80%;
+        font-size: 1.2rem;
+
+        transition: all 0.2s ease-in-out;
+    }
+    .inicio{
+        height: 30vh;
+    }
+    .info h1{
+        font-size: 2.8rem;
+        padding-top: 30px;
+    }
+
     /*HABILIDADES*/
     .habilidades .contenido-seccion .fila{
         display: block;
@@ -362,7 +402,7 @@ form input, textarea {
     }
     .about-derecha p{
         font-size: 0.81rem;
-        padding: 1.4rem
+        padding: 1.4rem 1.4rem 1.4rem 2rem;
     }
     .sobre-mi {
         text-align: center;
