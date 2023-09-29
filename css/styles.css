@@ -310,8 +310,6 @@ form input, textarea {
 }
 #contacto h3{
     margin: 1.87rem;
-    position: absolute;
-    left: -6.5rem;
     font-size: 1rem;
 }
 /*FOOTER*/
@@ -343,7 +341,7 @@ form input, textarea {
     box-shadow: 0 0 1.25rem #fff;
 }
 
-label, input{
+.nav-bar input, label{
     display: none;
 }
 /* SECCION RESPONSIVE */
@@ -352,7 +350,7 @@ label, input{
         display: block;
     }
     #input:checked ~ label {}
-    .nav-bar label {
+    .nav-bar label {;
         display: block;
         user-select: none;
         width: 80px;
@@ -416,18 +414,15 @@ label, input{
         margin-bottom: 1.25rem;
     }
     .fila {
-            flex-direction: column;
+        flex-direction: column;
     }
     
     .col {
-            margin-bottom: 1.25rem;
+        margin-bottom: 1.25rem;
     }
+    /*CONTACTO*/
+
     #contacto{
         overflow: hidden;
     }
-    #contacto h3{
-        position: relative;
-        right: 2.5rem;
     }
-}
- 
