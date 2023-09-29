@@ -1,11 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@200;300;400;600;700&family=Yellowtail&display=swap');
 
+/*ESTILOS GENERALES*/
 *{
     font-family: "Titillium Web";
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+/*INICIO*/
 .inicio{
     background: linear-gradient(rgba(0,0,0,.3), rgba(0,0,0,.3)),
     url("../images/fondo.jpg");
@@ -43,6 +45,9 @@ nav ul li a:hover{
 .info h1{
     font-size: 55px;
     letter-spacing: 5px;
+}
+.nav-bar input, label{
+    display: none;
 }
 /*ABOUT ME*/
 .container{
@@ -341,11 +346,10 @@ form input, textarea {
     box-shadow: 0 0 1.25rem #fff;
 }
 
-.nav-bar input, label{
-    display: none;
-}
+
 /* SECCION RESPONSIVE */
 @media screen and (max-width:844px){
+    /*HEADER*/
     input:checked ~ ul {
         display: block;
     }
@@ -421,7 +425,6 @@ form input, textarea {
         margin-bottom: 1.25rem;
     }
     /*CONTACTO*/
-
     #contacto{
         overflow: hidden;
     }
